@@ -26,4 +26,6 @@ jobs:
           git merge upstream/main --ff-only
 
       - name: Push changes
-        run: git push origin main
+        run: |
+          git remote set-url origin https://x-access-token:${{ secrets.SYNC_PAT }}@github.com/${{ github.repository }}.git
+          git push origin main
