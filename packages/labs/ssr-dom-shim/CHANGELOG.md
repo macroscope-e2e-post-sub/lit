@@ -1,5 +1,21 @@
 # @lit-labs/ssr-dom-shim
 
+## 1.5.1
+
+### Patch Changes
+
+- [#5202](https://github.com/lit/lit/pull/5202) [`f7b60025d93463c74d59001c6f01c38c41b1e816`](https://github.com/lit/lit/commit/f7b60025d93463c74d59001c6f01c38c41b1e816) Thanks [@kyubisation](https://github.com/kyubisation)! - Add register css hook file to publishable files
+
+## 1.5.0
+
+### Minor Changes
+
+- [#4879](https://github.com/lit/lit/pull/4879) [`5057feeac96cc6eb3c5e5c1cb6c42bc01ac6aab1`](https://github.com/lit/lit/commit/5057feeac96cc6eb3c5e5c1cb6c42bc01ac6aab1) Thanks [@kyubisation](https://github.com/kyubisation)! - Implement limited shim for CSSStyleSheet and CSS loader for Node.js
+
+### Patch Changes
+
+- [#4984](https://github.com/lit/lit/pull/4984) [`ad23f26ae908a160d30ed2a939b322fe9cc2ee83`](https://github.com/lit/lit/commit/ad23f26ae908a160d30ed2a939b322fe9cc2ee83) Thanks [@kyubisation](https://github.com/kyubisation)! - Update TypeScript dependencies to version 5.8 with related ARIAMixin changes (ariaColIndexText, ariaRelevant and ariaRowIndexText)
+
 ## 1.4.0
 
 ### Minor Changes
